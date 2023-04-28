@@ -1,0 +1,45 @@
+
+#play{
+	-fx-background-image: url("/Backgrounds/sunCard.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+#fold{
+	-fx-background-image: url("/Backgrounds/sunCard.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+#eventsVB{
+	-fx-fill: white;
+}
+#anotherGameB{
+	-fx-background-color:
+        linear-gradient(white, mediumaquamarine),
+        radial-gradient(center 50% -40%, radius 200%, white 15%, mediumaquamarine 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    
+ 	-fx-text-color: white;
+	-fx-background-radius: 80;
+	-fx-background-position: center center;
+}
+#exitGameB{
+	-fx-background-color:
+        linear-gradient(white, plum),
+        radial-gradient(center 50% -40%, radius 200%, white 15%, plum 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    
+ 	-fx-text-color: white;
+	-fx-background-radius: 80;
+	-fx-background-position: center center;
+}
+
+Text{
+	-fx-font-size: 14;
+	-fx-font-family: verdana;
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+}

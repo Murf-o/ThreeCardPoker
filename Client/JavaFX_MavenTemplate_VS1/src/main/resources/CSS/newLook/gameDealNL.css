@@ -1,0 +1,31 @@
+#dealPane{
+	-fx-background-image: url("/Backgrounds/sunCard.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+#dealCardsB{
+	-fx-background-color:
+        linear-gradient(#f0ff35, turquoise),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 10%, turquoise 50%);
+     -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: black;
+    -fx-font-size: 13;
+}
+.text-field{
+	-fx-background-color: seashell;
+}
+#winningsTxt{
+	-fx-font-size: 15;
+	-fx-font-family: verdana;
+	-fx-fill: teal;
+}
+
+
+#errorDealTxt{
+	-fx-font-size: 13;
+	-fx-font-family: verdana;
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+}

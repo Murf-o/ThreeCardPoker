@@ -1,0 +1,38 @@
+#introPane{
+	-fx-background-image: url("/Backgrounds/backgroundIntro.jpg");
+	-fx-background-size: 600 600;
+	-fx-background-position: center center;  
+}
+
+#welcomeTxt{
+	-fx-font-size: 30;
+	-fx-font-family: verdana;
+	-fx-stroke: red;
+	-fx-stroke-width: 1;
+}
+#errorIntroTxt{
+	-fx-font-size: 15;
+	-fx-font-family: verdana;
+	-fx-stroke: yellow;
+	-fx-stroke-width: 1;
+	-fx-text-alignment: center;
+}
+
+.button{
+	-fx-background-color:
+        linear-gradient(white, red),
+        radial-gradient(center 50% -40%, radius 200%, white 15%, darkred 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    
+	-fx-background-radius: 80;
+	-fx-background-position: center center;
+}
+
+.text{
+	-fx-smoothing-type: lcd;
+	-fx-font-size: 13pt;
+	-fx-fill: white;
+	-fx-stroke-color: blue;
+}

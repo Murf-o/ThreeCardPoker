@@ -1,0 +1,56 @@
+#gamePane{
+	-fx-background-image: url("/Backgrounds/sunCard.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+#anteTxt{
+	-fx-fill: white;
+	-fx-font-size: 13;
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+}
+#pairTxt{
+	-fx-fill: white;
+	-fx-font-size: 13;
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+}
+#totalWTxt{
+	-fx-fill: white;
+	-fx-font-size: 13;
+	-fx-stroke: teal;
+	-fx-stroke-width: 1;
+}
+
+#playB{
+	-fx-background-color:
+        linear-gradient(white, powderblue),
+        radial-gradient(center 50% -40%, radius 200%, white 15%, powderblue 30%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    
+ 	-fx-text-color: white;
+ 	-fx-text-size: 15;
+	-fx-background-radius: 80;
+	-fx-background-position: center center;
+}
+#foldB{
+	-fx-background-color:
+        linear-gradient(white, lightsalmon),
+        radial-gradient(center 50% -40%, radius 200%, white 15%, salmon 40%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    
+    -fx-text-size: 15;
+ 	-fx-text-color: white;
+	-fx-background-radius: 80;
+	-fx-background-position: center center;
+}
+Text{
+	-fx-font-size: 14;
+	-fx-font-family: verdana;
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+}
