@@ -1,0 +1,11 @@
+#gamePane{
+	-fx-background-image: url("/Backgrounds/main.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+Text{
+	-fx-font-size: 13;
+	-fx-font-family: verdana;
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+}
